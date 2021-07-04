@@ -45,9 +45,6 @@ Author URI : http://www.markups.io/
   background-color: transparent;
 }
 
-#mu-search .mu-search-area .mu-search-close {
-  background-color: #c1a35f;
-}
 
 #mu-slider .mu-slider-single .mu-slider-content span {
   background-color: #c1a35f;
@@ -160,41 +157,6 @@ Author URI : http://www.markups.io/
   background-color: #c1a35f;
 }
 
-.mu-blog-single .mu-blog-single-item .mu-blog-tags .mu-news-single-tagnav li a:hover, .mu-blog-single .mu-blog-single-item .mu-blog-tags .mu-news-single-tagnav li a:focus {
-  color: #c1a35f;
-}
-.mu-blog-single .mu-blog-single-item .mu-blog-social .mu-news-social-nav li a:hover, .mu-blog-single .mu-blog-single-item .mu-blog-social .mu-news-social-nav li a:focus {
-  background-color: #c1a35f;
-  border-color: #c1a35f;
-}
-
-.mu-blog-single-navigation a:hover, .mu-blog-single-navigation a:focus {
-  background-color: #c1a35f;
-  border-color: #c1a35f;
-}
-
-.mu-comments-area {
-  display: inline;
-  float: left;
-  width: 100%;
-  margin-top: 20px;
-}
-.mu-comments-area h3 {
-  margin-bottom: 20px;
-  padding: 20px;
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
-}
-.mu-comments-area .comments .commentlist li .reply-btn:hover, .mu-comments-area .comments .commentlist li .reply-btn:focus {
-  background-color: #c1a35f;
-  border-color: #c1a35f;
-}
-.mu-comments-area .comments .commentlist li .author-tag {
-  background-color: #c1a35f;
-}
-.mu-comments-area .comments .comments-pagination li a:hover, .mu-comments-area .comments .comments-pagination li a:focus {
-  color: #c1a35f;
-}
 
 #mu-gallery .mu-gallery-area .mu-gallery-content {
   width: 100%;
@@ -239,7 +201,3 @@ Author URI : http://www.markups.io/
 }
 
 
-/*=======================================
-Template Design By MarkUps.
-Author URI : http://www.markups.io/
-========================================*/

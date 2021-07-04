@@ -23,8 +23,7 @@
 }
 #mu-header{	
 	.mu-header-area{		
-		.mu-header-top-right{
-			.mu-top-social-nav			{				
+		.mu-header-top-right{				
 				li{					
 					a{
 						&:hover,
@@ -36,7 +35,6 @@
 			}
 		}
 	}	
-}
 #mu-menu{
 	.navbar-header{
 		.navbar-brand{			
@@ -85,13 +83,7 @@
   border-bottom: 2px solid $theme-color;
   background-color: transparent;
 }
-#mu-search{	
-	.mu-search-area{
-		.mu-search-close{
-			background-color: $theme-color;			
-		}		
-	}
-}
+
 
 #mu-slider{
 	.mu-slider-single{
@@ -203,35 +195,7 @@
 		}
 	}
 }
-.mu-blog-single-item{
-	.mu-blog-single-img{		
-		.mu-blog-caption{
-			h3{
-				a{
-					&:hover{
-						color: $theme-color;
-					}
-				}
-			}
-		}					
-	}
-	.mu-blog-meta{
-		a{
-			&:hover,
-			&:focus{
-				color: $theme-color;
-			}
-		}		
-	}
-	.mu-blog-description{
-		a{
-			&:hover,
-			&:focus{
-				border-color: $theme-color;
-			}
-		}
-	}
-}
+
 #mu-page-breadcrumb{
 	.mu-page-breadcrumb-area{
 		.breadcrumb{
@@ -324,9 +288,7 @@
 	float: left;
 	margin-top: 30px;
 	width: 100%;
-	h3{
 
-	}
 	.mu-related-item-area{		
 		#mu-related-item-slide{
 			.slick-prev,
@@ -336,79 +298,7 @@
 		}
 	}
 }
-.mu-blog-single{
-	.mu-blog-single-item{		
-		.mu-blog-tags{
-			.mu-news-single-tagnav{
-				li{
-					a{
-						&:hover,
-						&:focus{
-							color: $theme-color;
-						}
-					}
-				}
-			}
-		}
-		.mu-blog-social{
-			.mu-news-social-nav{
-				li{
-					a{
-						&:hover,
-						&:focus{
-							background-color: $theme-color;
-							border-color: $theme-color;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-.mu-blog-single-navigation {	
-	a{
-		&:hover,
-		&:focus{
-			background-color: $theme-color;
-			border-color: $theme-color;
-		}
-	}
-}
-.mu-comments-area{
-	display: inline;
-	float: left;
-	width: 100%;
-	margin-top: 20px;
-	h3{
-		margin-bottom: 20px;
-		padding: 20px;
-		border-bottom: 1px solid #ccc;
-		padding-left: 0;
-	}
-	.comments{
-		.commentlist {
-			li {
-				.reply-btn {					
-					&:hover,
-					&:focus{				
-						background-color: $theme-color;				
-						border-color: $theme-color;
-					}
-				}	
-				
-				.author-tag {					
-					background-color: $theme-color;					
-				}				
-			}			
-		}
-		.comments-pagination li a {
-			&:hover,
-			&:focus{		  
-				color: $theme-color;
-			}
-		}
-	}
-}
+
 #mu-gallery{
 	.mu-gallery-area{
 		.mu-gallery-content{

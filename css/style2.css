@@ -1,0 +1,240 @@
+/*==================
+ ABOUT PAGE
+====================*/
+:root{
+    --primary-color: #020758;
+    --secondary-color: #87888f;
+    margin: 0;
+    box-sizing: border-box;
+  }
+#abt-content p, ul{
+    color: #313030;
+    font-size: 20px;
+    word-spacing: 3;
+  }
+
+
+  /* WHITE HEADERS  */
+  #abt-content h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing:2;
+  }
+
+  #abt-main-header{
+    margin: 0;
+      padding-top: 13.5rem;
+  }
+
+
+   /* BLUE HEADERS  */
+  #abt-content .abt-header{
+    background-color:#ede6e6;
+    color: var(--primary-color);
+      min-height: 50vh;
+      max-width: 100%;
+    text-align: center;
+    position:relative;
+    margin:0;
+  }
+  
+
+  /* PADDINGS &   MARGINS */
+
+  .padding{
+    padding: 7rem;
+  }
+  .ml{
+    margin-left: 30rem;
+  }
+  .mr{
+    margin-right: 30rem;
+  }
+
+  /* INTRO SECTION */
+  #abt-content .intro-section{
+    background-color: #1a68b1;
+  }
+  #abt-content .intro-section p{
+    color: #fff;
+    text-align: justify;
+  }
+   /* ADMISSION  */
+  #abt-content .admission{
+    background-color: #158d43;
+  }
+  #abt-content .admission p{
+  color: #fff;
+  margin-right: 30rem;
+  
+  }
+  #abt-content .admission h2{
+    color: #fff;
+    margin-right: 10rem;
+    position: relative; 
+    top: 45px;
+    text-align: right;
+  }
+  #abt-content .admission div{
+    width: 70vw;
+    text-align: left;
+  }
+  #abt-content .vision {
+  background-color: #0000007c;
+  padding: 5rem;
+  }
+  
+  #abt-content .vision > h2{
+    color: #fff;
+    margin-left: 10rem;
+    position: relative; 
+    top: 12rem;
+    text-align: left;
+  }
+  #abt-content .vision > div{
+    text-align: left;
+  }
+  #abt-content .vision > p, .vision >li{
+    color: #fff;
+    margin-left: 25vw;
+    text-align: justify;
+  }
+  
+  #abt-content .vision > ul{
+    list-style-type: square;
+  }
+  #abt-content .programmes{
+   background-color: #e4e0e0;
+  padding: 5rem;
+  }
+  #abt-content .programmes .tahfeez, .parents, .ambience, .excursion, .vocation{
+      border: 1px solid #000000;
+      border-radius: 5px;
+      background-color: #fff;
+      color: var(--primary-color);
+    padding: 5rem;
+    text-align: justify;
+    margin: 20px;
+  }
+  #abt-content .programmes .tahfeez:hover, .parents:hover, .ambience:hover, .excursion:hover{
+      background-color: #e5bce5;
+      color: #fff;
+  }
+  .programmes h2{
+      text-align: center;
+      font-size: 27px;
+      color: var(--primary-color);
+  }
+
+#abt-content .boarding{
+    margin: 10rem;
+    text-align: justify;
+}
+#abt-content .boarding h3{
+    color: var(--primary-color);
+}
+
+#abt-content .boarding .important{
+    font-weight: 600;
+}
+#abt-content .contact{
+    text-align: right;
+    margin-right: 10rem;
+}
+#abt-content .contact-details{
+    font-style: italic;
+    text-transform: capitalize;
+}
+#abt-content .boarding span{
+    background-color: var(--secondary-color);
+    color: #f5f5f5;
+    font-weight: 500;
+}
+
+/* MOBILE VIEW  */
+@media (max-width: 991px) {
+  #abt-content .vision > p, .vision >li{
+    color: #fff;
+    margin: 0;
+    text-align: justify;
+  }
+}
+@media (max-width: 767px){
+  .mr{
+    margin-right: 0;
+  }
+.ml{
+  margin-left: 0;
+}
+}
+@media (max-width: 640px){
+  body{
+    margin:0;
+  }
+  #abt-main-header{
+    margin: 0;
+      padding-top: 7.5rem;
+      font-size: 28px;
+  }
+
+  #abt-content .admission div{
+    width: 100%;
+    text-align: center;
+  }
+  #abt-content .vision > h2{
+    color: #fff;
+    margin: 0.5rem;
+    position: relative; 
+    top: 0;
+    text-align: center;
+  }
+  #abt-content .vision > p, .vision >li{
+    color: #fff;
+    margin: 25px;
+    text-align: center;
+  }
+  #abt-content .vision > div{
+    text-align: center;
+  }
+  .padding{
+    padding: 1em;
+  }
+  .header-left{
+    text-align: center;
+  }
+  #abt-content .admission p{
+    color: #fff;
+    margin: 2rem;
+    
+    }
+}
+@media (max-width: 480px){
+  #abt-content .admission h2{
+    color: #fff;
+    margin: 1rem;
+    position: relative; 
+    top: 0;
+    text-align: center;
+  }
+  #abt-content .programmes{
+   padding: 1rem;
+   }
+   #abt-content .programmes .tahfeez, .parents, .ambience, .excursion, .vocation{
+     padding: 1rem;
+   }
+   #abt-content .boarding{
+    margin: 2rem;
+}
+.pry-table{
+  width: 100%;
+}
+}
+@media (max-width: 360px){
+  #abt-content .admission div{
+    width: 100%;
+    text-align: center;
+  }
+  
+}

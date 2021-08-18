@@ -1434,11 +1434,7 @@ position: relative;
     margin-top: 15px;
   }
 
-  #about-video-popup span {
-    top: 20px;
-    position: absolute;
-    right: 20px;
-  }
+
 
   #mu-features {
     padding: 60px 0;
@@ -1498,9 +1494,6 @@ position: relative;
     padding-top: 10px;
   }
 
-  #mu-search-icon {
-    display: none;
-  }
 
   .navbar-toggle {
     background-color: #01bafd;
@@ -1573,16 +1566,6 @@ position: relative;
   #mu-contact {
     padding: 50px 0;
   }
-
-  #mu-error {
-    padding: 50px 0;
-  }
-
-  #mu-error .mu-error-area h2 {
-    font-size: 150px;
-    line-height: 1.5;
-  }
-}
 @media (max-width: 640px) {
 
 
@@ -1635,16 +1618,17 @@ display: grid;
 grid-template-columns: max-content; 
 }
 
-#mu-menu .navbar-header h2{
+#mu-menu .navbar-header span{
   font-size: 12px;
+
 }
 #mu-menu .navbar-header button{
-  width: 100%;
+width: 100%;
 }
 
 #mu-menu .navbar-brand{
   margin-left: 0;
-  padding: 0;
+ 
 }
   #mu-slider .mu-slider-single .mu-slider-content h2 {
     font-size: 18px;
@@ -1659,6 +1643,10 @@ grid-template-columns: max-content;
   #mu-slider .mu-slider-single .mu-slider-content p {
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  #mu-slider .mu-slider-single .mu-slider-content p .slider-info{
+    display: none;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content {
@@ -1685,12 +1673,6 @@ grid-template-columns: max-content;
 
   #mu-service .mu-service-area .mu-service-single h3 {
     font-size: 18px;
-  }
-
-  #about-video-popup iframe {
-    height: 300px;
-    margin: 5% auto;
-    width: 80%;
   }
 
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {

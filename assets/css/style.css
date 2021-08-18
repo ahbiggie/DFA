@@ -93,7 +93,7 @@ img {
 #mu-header {
   background-color: #f8f8f8;
   display: inline;
-  float: left;
+position: relative;
   width: 100%;
 }
 #mu-header .mu-header-area {
@@ -153,8 +153,9 @@ img {
  NAVBAR SECTION
 ====================*/
 #mu-menu {
-  float: left;
+position: relative;
   width: 100%;
+  margin-bottom: 0;
  
 }
 #mu-menu .navbar-brand h2 {
@@ -379,8 +380,7 @@ img {
 ====================*/
 #mu-service {
   display: inline;
-  float: left;
-  margin-top: -80px;
+  margin-top: -60px;
   width: 100%;
 }
 #mu-service .mu-service-area {
@@ -451,14 +451,10 @@ img {
   width: 100%;
   background-color: #ccc;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-right a {
-  display: block;
-  width: 100%;
-  position: relative;
+#mu-about-us .mu-about-us-area .mu-about-us-right .accordion-header button{
+  font-size: 16px;
 }
-#mu-about-us .mu-about-us-area .mu-about-us-right img {
-  width: 100%;
-}
+
 
 
 .mu-title {
@@ -522,6 +518,8 @@ img {
 #mu-abtus-counter .mu-abtus-counter-area .no-border {
   border: none;
 }
+
+
 
 /*==================
  FEATURES SECTION
@@ -593,126 +591,12 @@ img {
 /*==================
  LATEST COURSES SECTION
 ====================*/
-#mu-latest-courses {
-  background-color: #333;
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-#mu-latest-courses .mu-latest-courses-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-latest-courses .mu-latest-courses-area .mu-title h2 {
-  color: #fff;
-}
-#mu-latest-courses .mu-latest-courses-area .mu-title p {
-  color: #fff;
-}
-#mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content {
-  display: inline;
-  float: left;
-  margin-top: 50px;
-  width: 100%;
-}
-#mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-slide {
-  outline: none;
-}
-#mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots li {
-  background-color: #fff;
-  border-radius: 4px;
-  height: 8px;
-  width: 20px;
-}
-#mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots li button {
-  display: none;
-}
 
-.mu-latest-course-single {
-  background-color: #fff;
-  display: inline;
-  float: left;
-  width: 100%;
-}
-.mu-latest-course-single .mu-latest-course-img {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-.mu-latest-course-single .mu-latest-course-img a {
-  display: block;
-}
-.mu-latest-course-single .mu-latest-course-img a img {
-  width: 100%;
-}
-.mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption {
-  background-color: #f8f8f8;
-  display: inline;
-  float: left;
-  padding: 10px 15px;
-  width: 100%;
-}
-.mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption a {
-  display: inline-block;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption span {
-  float: right;
-}
-.mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption span i {
-  margin-right: 5px;
-}
-.mu-latest-course-single .mu-latest-course-single-content {
-  display: inline;
-  float: left;
-  width: 100%;
-  padding: 15px;
-}
-.mu-latest-course-single .mu-latest-course-single-content h4 {
-  color: #333;
-  line-height: 1.4;
-}
-.mu-latest-course-single .mu-latest-course-single-content h4 a {
-  color: #333;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.mu-latest-course-single .mu-latest-course-single-content p {
-  font-size: 14px;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
-}
-.mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom {
-  border-top: 1px solid #ccc;
-  display: inline;
-  float: left;
-  margin-top: 15px;
-  padding-top: 15px;
-  width: 100%;
-}
-.mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details {
-  display: inline-block;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details:hover, .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details:focus {
-  color: #333;
-}
-.mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-price {
-  display: inline-block;
-}
+
+
+
+
+
 
 /*==================
  TEACHER SECTION
@@ -935,35 +819,7 @@ img {
 /*==================
  COURSES PAGE
 ====================*/
-#mu-page-breadcrumb {
-  background-color: #333;
-  display: inline;
-  float: left;
-  padding: 30px 0;
-  width: 100%;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area h2 {
-  text-align: center;
-  color: #fff;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb {
-  background-color: transparent;
-  border-radius: 0;
-  margin-bottom: 0;
-  margin-top: 10px;
-  text-align: center;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb li {
-  color: #fff;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb li a {
-  color: #fff;
-}
+/*  */
 
 #mu-course-content {
   background-color: #f8f8f8;
@@ -977,15 +833,7 @@ img {
   float: left;
   width: 100%;
 }
-#mu-course-content .mu-course-content-area .mu-course-container {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single {
-  border: 1px solid #ccc;
-  margin-bottom: 30px;
-}
+
 #mu-course-content .mu-course-content-area .mu-sidebar {
   display: inline;
   float: left;
@@ -1074,39 +922,27 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#mu-course-content .mu-course-content-area .mu-course-details {
-  background-color: #FFF;
+
+#mu-course-content .mu-course-content-area .card{
+  border: 1px solid #c2c2c2;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single {
-  border: none;
+#mu-course-content .mu-course-content-area .card-img{
+  width:100%;
 }
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-imgcaption {
-  background-color: #FFF;
+#mu-course-content .mu-course-content-area .card-body{
+  padding: 2% 3%;
 }
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h2 {
-  line-height: 1.7;
-  margin-bottom: 20px;
+#mu-course-content .mu-course-content-area .card-footer{
+  border-top: inherit;
+  text-align: center;
+  padding: 10px;
 }
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
+#mu-course-content .mu-course-content-area .card-link{
+  color:#25cdd3;
 }
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content p {
-  font-size: 15px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul {
-  margin-bottom: 30px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li {
-  margin-bottom: 10px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li span:first-child {
-  display: inline-block;
-  min-width: 150px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .table {
-  margin-top: 10px;
-}
+
 
 .mu-pagination {
   display: inline;
@@ -1416,6 +1252,7 @@ img {
 }
 
 
+
 /*==================
  FOOTER
 ====================*/
@@ -1597,11 +1434,7 @@ img {
     margin-top: 15px;
   }
 
-  #about-video-popup span {
-    top: 20px;
-    position: absolute;
-    right: 20px;
-  }
+
 
   #mu-features {
     padding: 60px 0;
@@ -1640,38 +1473,13 @@ img {
     left: 0;
   }
 
-  #mu-from-blog {
-    padding: 60px 0;
-  }
-
-  #mu-from-blog .mu-from-blog-area .mu-from-blog-content {
-    margin-top: 30px;
-  }
-
-  #mu-from-blog .mu-from-blog-area .mu-from-blog-content .mu-blog-single-item .mu-blog-meta a {
-    letter-spacing: 0;
-    margin-right: 5px;
-  }
-
-  #mu-from-blog .mu-from-blog-area .mu-from-blog-content .mu-blog-single-item .mu-blog-single-img .mu-blog-caption h3 {
-    font-size: 20px;
-  }
+ 
 
   #mu-course-content .mu-course-content-area .mu-sidebar {
     margin-top: 30px;
   }
 
-  #mu-search .mu-search-area .mu-search-form input[type="search"] {
-    font-size: 30px;
-  }
-
-  #mu-search .mu-search-area .mu-search-close {
-    right: 50px;
-  }
-
-  #mu-search .mu-search-area {
-    padding: 35% 0;
-  }
+ 
 
   #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right {
     margin-top: 50px;
@@ -1686,9 +1494,6 @@ img {
     padding-top: 10px;
   }
 
-  #mu-search-icon {
-    display: none;
-  }
 
   .navbar-toggle {
     background-color: #01bafd;
@@ -1734,17 +1539,6 @@ img {
     display: none;
   }
 
-  #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption a {
-    font-size: 14px;
-  }
-
-  #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption span {
-    font-size: 14px;
-  }
-
-  #mu-from-blog .mu-from-blog-area .mu-from-blog-content .mu-blog-single-item {
-    margin-bottom: 30px;
-  }
 
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
     margin-bottom: 30px;
@@ -1756,19 +1550,7 @@ img {
     margin-right: 10px;
   }
 
-  #about-video-popup iframe {
-    height: 350px;
-    width: 80%;
-  }
-
-  #about-video-popup span {
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    margin-right: 0;
-    margin-top: 0;
-  }
-
+ 
   #mu-course-content {
     padding: 50px 0;
   }
@@ -1784,16 +1566,6 @@ img {
   #mu-contact {
     padding: 50px 0;
   }
-
-  #mu-error {
-    padding: 50px 0;
-  }
-
-  #mu-error .mu-error-area h2 {
-    font-size: 150px;
-    line-height: 1.5;
-  }
-}
 @media (max-width: 640px) {
 
 
@@ -1846,16 +1618,17 @@ display: grid;
 grid-template-columns: max-content; 
 }
 
-#mu-menu .navbar-header h2{
+#mu-menu .navbar-header span{
   font-size: 12px;
+
 }
 #mu-menu .navbar-header button{
-  width: 100%;
+width: 100%;
 }
 
 #mu-menu .navbar-brand{
   margin-left: 0;
-  padding: 0;
+ 
 }
   #mu-slider .mu-slider-single .mu-slider-content h2 {
     font-size: 18px;
@@ -1870,6 +1643,10 @@ grid-template-columns: max-content;
   #mu-slider .mu-slider-single .mu-slider-content p {
     font-size: 14px;
     line-height: 1.5;
+  }
+
+  #mu-slider .mu-slider-single .mu-slider-content p .slider-info{
+    display: none;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content {
@@ -1896,12 +1673,6 @@ grid-template-columns: max-content;
 
   #mu-service .mu-service-area .mu-service-single h3 {
     font-size: 18px;
-  }
-
-  #about-video-popup iframe {
-    height: 300px;
-    margin: 5% auto;
-    width: 80%;
   }
 
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
@@ -1938,6 +1709,7 @@ grid-template-columns: max-content;
   }
 }
 @media (max-width: 360px) {
+
   #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -1955,35 +1727,11 @@ grid-template-columns: max-content;
     padding: 5px 8px;
   }
 
-  .mu-comments-area .comments .commentlist li .news-img {
-    margin-right: 0;
-  }
-
-  .mu-comments-area .comments .commentlist .children {
-    margin-left: 10px;
-  }
-
-  .mu-blog-single .mu-blog-single-item .mu-blog-social .mu-news-social-nav li a {
-    margin-bottom: 10px;
-  }
-
   #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-img {
     height: 220px;
   }
 
   #mu-contact .mu-contact-area .mu-contact-content .mu-contact-right iframe {
     height: 300px;
-  }
-
-  #mu-error .mu-error-area p {
-    font-size: 18px;
-  }
-
-  #mu-error .mu-error-area span {
-    font-size: 14px;
-  }
-
-  #mu-error .mu-error-area h2 {
-    font-size: 100px;
   }
 }
